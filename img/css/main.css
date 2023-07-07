@@ -1,0 +1,199 @@
+body{
+    color:#000000;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1230px;
+    padding:0 30px;
+
+    margin: 0 auto;
+}
+/*header*/
+.header {
+    padding: 46px 0 0 0;
+
+    background-color: #f1f1f1;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-end;
+}
+.logo {
+    color: #000;
+    padding-right: 12px;
+    padding-bottom: 3px;
+
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    position: relative;
+
+    transition: all .3s;
+}
+.logo:after{
+    content: '';
+    display: block;
+    background-color: #FDA300;
+    border-radius: 50%;
+
+    height: 8px;
+    width: 8px;
+
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+
+    transition: all .3s;
+}
+.logo:hover{
+    color:#606060;
+}
+.logo:hover:after{
+    background-color: #ffbd42;
+}
+/*nav*/
+.nav-list {
+    display: flex;
+
+    column-gap: 50px;
+
+    font-weight: 500;
+    font-style: 14px;
+}
+.nav-link {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    transition: all .3s ease;
+}
+.nav-link:hover{
+    color:#606060;
+
+    text-decoration: underline;
+}
+.nav-link.active{
+    color:#606060;
+
+    text-decoration: underline;
+}
+/*header__row*/
+.header__row {
+    margin: 8% 0 0 0;
+    display: flex;
+
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.header__content {
+    margin: auto 0;
+}
+.header__img{
+    width: 100%;
+    height: auto;
+}
+.header__img{
+    max-width: 100%;
+    height: auto;
+}
+.header__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.header__name {
+    
+}
+.header__job {
+    border-bottom: 1px solid gray;
+}
+.header__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.github{
+    color: #000;
+    font-size: 16px;
+}
+.github a{
+    color: #000;
+    transition: all .3s ease;
+}
+.github a:hover{
+    color: #878585;
+    text-decoration: underline;
+}
+/*services*/
+.services{
+    margin: 80px 0;
+}
+.services__header{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin-bottom: 5%;
+
+    position: relative;
+}
+.services__header::after{
+    content: "";
+    display: block;
+    width: 16%;
+    height: 3px;
+    background-color: #000;
+
+    position: absolute;
+    bottom: -60%;
+}
+.services-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-card {
+    width: 30.333%;
+}
+.services-img {
+    margin-bottom: 30px;
+}
+.services-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 10px;
+
+}
+.services-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
