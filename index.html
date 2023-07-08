@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>Nomex portfolio</title>
 </head>
@@ -23,13 +23,13 @@
         <div class="container">
             <!--nav-->
             <div class="header__nav">
-                <a href="" class="logo">
+                <a data-aos="fade-down-right" href="" class="logo">
                     Nomex
                 </a>
                 <nav id="nav" class="nav">
-                    <ul class="nav-list">
+                    <ul data-aos="fade-down" class="nav-list">
                         <li class="nav-item">
-                            <a href="" class="nav-link active">Home</a>   
+                            <a href="" class="nav-link">Home</a>   
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">Works</a>
@@ -51,7 +51,7 @@
             </div><!--header__nav-->
 
             <div class="header__row">
-                <div class="header__content">
+                <div data-aos="fade-up" class="header__content">
                     <h1 class="header__title">
                         <div class="header__name">Alex Boris</div>
                         <div class="header__job"> Junior & Frontend Developer</div>
@@ -63,14 +63,14 @@
                 </div>
 
                 <div class="header__img">
-                    <img src="img/header/1.png" alt="">
+                    <img  data-aos="fade-left" src="img/header/1.png" alt="">
                 </div>
             </div>
 
         </div>
     </header>
 
-    <section class="services">
+    <section data-aos="fade-down" class="services">
         <div class="container">
             <div class="services__header">Services</div>
             <div class="services-row">
@@ -107,28 +107,28 @@
         </div>
     </section>
 
-    <section class="portfolio">
+    <section data-aos="fade-down" class="portfolio">
         <div class="container">
             <div class="container-title">
                 <h2 class="title-1">Portfolio</h2>
             </div>
 
-            <div class="project">
+            <div data-aos="flip-left" class="project">
                 <img src="img/portfolio/1.jpg" alt="" class="project__img">
                 <h3 class="project-title">
                     Online fashion store - Homepage
                 </h3>
             </div>
 
-            <div class="project">
+            <div data-aos="flip-left" class="project">
                 <img src="img/portfolio/2.jpg" alt="" class="project__img">
                 <h3 class="project-title">
                     Reebok Store - Concept
                 </h3>
             </div>
 
-            <div class="project">
-                <img src="img/portfolio/3.jpg" alt="" class="project__img prof">
+            <div data-aos="flip-left" class="project">
+                <img  src="img/portfolio/3.jpg" alt="" class="project__img prof">
                 <h3 class="project-title">
                     Braun Landing Page - Concept
                 </h3>
@@ -143,42 +143,43 @@
                     Contacts
                 </h2>
             </div>
-            <div class="contacts-content">
+            <div data-aos="flip-down" class="contacts-content">
                 <p>Want to know more or just chat? <br>
                     You are welcome!</p>
             </div>
-            <div class="contacts-buton">
+            <div data-aos="flip-right class="contacts-buton">
                 <a href="" class="contacts-btn">
                     Send message
                 </a>
             </div>
             <div class="contacts-social">
 
-                 <a href="" class="">
+                 <a data-aos="flip-right" href="" class="">
                      <img src="img/contacts/1.jpg" alt="">
                  </a>
 
-                 <a href="" class="">
+                 <a data-aos="flip-right" href="" class="">
                     <img src="img/contacts/2.jpg" alt="">
                  </a>
 
-                 <a href="" class="">
+                 <a data-aos="flip-right" href="" class="">
                       <img src="img/contacts/3.jpg" alt="">
                 </a>
 
-                <a href="" class="">
+                <a data-aos="flip-right" href="" class="">
                      <img src="img/contacts/4.jpg" alt="">
                 </a>
 
             </div>
 
-            <div class="contacts-footer">
+            <div data-aos="flip-left" class="contacts-footer">
                 <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
            </div>
 
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

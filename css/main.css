@@ -231,8 +231,16 @@ hr{
 .project__img {
     margin-bottom: 40px;
 }
+img.project__img{
+    max-width: 100%;
+    height: auto;
+}
 .project__img img{
-    width: 100%;
+    max-width: 100%;
+        height: auto;
+}
+img.project__img.prof {
+    max-width: 100%;
     height: auto;
 }
 .project-title {
@@ -288,6 +296,7 @@ hr{
     letter-spacing: 0em;
     text-align: center;
     color: #fff;
+    margin: 0;
 
     transition: .3s all ease;
 }
@@ -302,13 +311,18 @@ hr{
     position: relative;
     top: 1px;
 }
+.contacts-content.aos-init.aos-animate{
+    padding: 0;
+}
 .contacts-social {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 60px;
-
-    margin-bottom: 40px;
+}
+.aos-init.aos-animate{
+    padding-top: 40px;
 }
 .contacts-footer{
     font-size: 14px;
@@ -317,4 +331,6 @@ hr{
     letter-spacing: 0em;
     text-align: center;
     color: #828282;
+
+    margin-top: 25px;
 }

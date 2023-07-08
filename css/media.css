@@ -56,4 +56,114 @@
         top: 46px;
         right: 30px;
     }
+    .header__row {
+        flex-direction: column;
+    }
+    .header{
+        height: auto;
+    }
+    .header__img{
+        text-align: center;
+    }
+    /*services*/
+    .services{
+        
+    }
+    .services-card {
+        width: 50%;
+        border-bottom: 1px solid #828282;
+
+        padding: 10px 10px 10px 0;
+    }
+    .services-card:last-child{
+        border-bottom: 0;
+        margin: 0 auto;
+    }
+    /*portfolio*/
+    .portfolio{
+        padding: 70px 0;
+    }
+    .container-title{
+        margin-bottom: 60px;
+    }
+    .project__img{
+        margin-bottom: 40px;
+    }
+    .project + .project{
+        padding-top: 75px;
+    }
+}
+@media(max-width:700px){
+    .header__img img {
+        height: auto;
+        max-width: 100%;
+    }
+    .header__name{
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 51px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .header__job{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .header__text{
+        margin-top: 14px;
+        margin-bottom: 18px;
+    }
+    .services-card {
+        width: 100%;
+        
+        padding: 10px 0;
+        
+        border-bottom: 1px solid #828282;
+    }
+    .services-card:first-child{
+        border-top: 1px solid #828282;
+    }
+    /*portfolio*/
+    .portfolio{
+        padding: 60px 0;
+    }
+    .container-title{
+        margin-bottom: 50px;
+    }
+    .project__img{
+        margin-bottom: 30px;
+    }
+    .project + .project{
+        padding-top: 55px;
+    }
+    /*content*/
+    .contacts{
+        padding: 60px 0;
+    }
+    .contacts-content{
+        margin-bottom: 20px;
+    }
+    .contacts-btn{
+        margin-bottom: 70px;
+        margin: 0;
+    }
+    .contacts-social{
+        margin-bottom: 20px;
+        column-gap: 50px;
+    }
+    .contacts-social a{
+        margin-top: 20px;
+    }
+}
+@media(max-width:380px){
+    .contacts-social a{
+        width: 25%;
+    }
+    .contacts-btn{
+        margin-bottom: 30px;
+        margin: 0;
+    }
 }
