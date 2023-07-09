@@ -66,9 +66,6 @@
         text-align: center;
     }
     /*services*/
-    .services{
-        
-    }
     .services-card {
         width: 50%;
         border-bottom: 1px solid #828282;
@@ -91,6 +88,9 @@
     }
     .project + .project{
         padding-top: 75px;
+    }
+    .contacts-buton.aos-init.aos-animate{
+        margin-bottom: 40px;
     }
 }
 @media(max-width:700px){
@@ -167,5 +167,11 @@
     .contacts-btn{
         margin-bottom: 30px;
         margin: 0;
+    }
+    .contacts-footer{
+        padding-bottom: 50px;
+    }
+    .header_nav{
+        margin-right: 0;
     }
 }

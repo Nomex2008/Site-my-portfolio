@@ -5,12 +5,13 @@ const body = document.querySelector('#body');
 
 navBtn.onclick = () => {
     if (nav.classList.toggle('open')) {
-        navBtnImg.src = 'img/btn/2.png'
+        navBtnImg.classList.add("active")
         body.classList.add("block");
     } else {
-        navBtnImg.src = 'img/btn/1.png'
+        navBtnImg.classList.remove("active")
         body.classList.remove("block");
     }
+    
 }
 
 AOS.init({

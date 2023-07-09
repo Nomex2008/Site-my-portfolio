@@ -47,7 +47,7 @@ hr{
 
     position: relative;
 
-    transition: all .3s;
+    transition: all .3s linear;
 }
 .logo:after{
     content: '';
@@ -62,8 +62,6 @@ hr{
     
     right: 0;
     bottom: 0;
-
-    transition: all .3s;
 }
 .logo:hover{
     color:#606060;
@@ -102,6 +100,52 @@ hr{
 
     text-decoration: underline;
 }
+.nav-burger {
+    width: 32px;
+    height: 20px;
+}
+.nav-burger::after,
+.nav-burger::before{
+    position: relative;
+    content: "";
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: #000;
+    transition: all .3s linear;
+}
+.nav-burger::after{
+    bottom: 0;
+}
+.nav-burger span{
+    position: relative;
+    display: block;
+    
+    width: 33px;
+    height: 4px;
+    background-color: #000;
+    margin: 5px 0;
+    left: 0;
+
+    transition: all .3s linear;
+}
+.nav-burger.active::after,
+.nav-burger.active::before{
+    background-color: #606060;
+}
+.nav-burger.active::after{
+    bottom: 9px;
+    transform:rotate(45deg);
+}
+.nav-burger.active::before{
+    top: 9px;
+    transform:rotate(-45deg);
+
+}
+.nav-burger.active span{
+    left: 50%;
+    width: 0;
+}
 /*header__row*/
 .header__row {
     margin: 0 0 0 0;
@@ -131,9 +175,6 @@ hr{
     letter-spacing: 0em;
     text-align: left;
 
-}
-.header__name {
-    
 }
 .header__job {
     border-bottom: 1px solid gray;
@@ -202,12 +243,13 @@ hr{
     letter-spacing: 0em;
     text-align: left;
 }
+.contacts-buton.aos-init.aos-animate{
+    margin-bottom: 40px;
+}
 /*portfolio*/
 .portfolio {
     padding: 90px 0;
     background-color: #f1f1f1;
-}
-.container {
 }
 .container-title {
     margin-bottom: 70px;
