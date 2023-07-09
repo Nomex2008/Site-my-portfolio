@@ -4,10 +4,7 @@ body{
     overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
 }
-html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
+
 html{
     max-width: 100%;
 }

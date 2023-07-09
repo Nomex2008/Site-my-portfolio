@@ -162,6 +162,10 @@
     }
 }
 @media(max-width:380px){
+    html, body {
+        /* Убирает прокрутку по горизонтале, для мобильной версии */
+        overflow-x: hidden;
+    }
     .contacts-social a{
         width: 25%;
     }
