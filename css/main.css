@@ -14,6 +14,9 @@ hr{
 
     margin: 0 auto;
 }
+.block{
+    overflow: hidden;
+}
 /*header*/
 .header {
     padding: 46px 0 0 0;
@@ -256,6 +259,23 @@ img.project__img.prof {
     color: #000;
     text-decoration: underline;
 }
+/*Add hover for class a*/
+.project__img{
+    transition: all 1s ease;
+}
+.project__img:hover {
+    box-shadow: 0px 0px 5px 8px #c9c3c3;
+
+    opacity: .5;
+    background-color: #606060;
+}
+h3.project-title{
+    color: #000;
+    transition: all .3s;
+}
+h3.project-title:hover{
+    color: #c9c3c3;
+}
 /*footer*/
 .contacts {
     padding: 90px 0;
@@ -321,8 +341,19 @@ img.project__img.prof {
     flex-wrap: wrap;
     column-gap: 60px;
 }
-.aos-init.aos-animate{
-    padding-top: 40px;
+a.contacts-btn{
+    margin-bottom: 40px;
+}
+.content-icon{
+    font-size: 38px;
+    height: 40px;
+    width: 40px;
+    color: #000;
+
+    transition: .3s all ease;
+}
+.content-icon:hover{
+    color: #606060;
 }
 .contacts-footer{
     font-size: 14px;

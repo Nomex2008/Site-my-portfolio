@@ -147,7 +147,9 @@
         margin-bottom: 20px;
     }
     .contacts-btn{
-        margin-bottom: 70px;
+        margin: 0;
+    }
+    .contacts-buton.aos-init.aos-animate{
         margin: 0;
     }
     .contacts-social{

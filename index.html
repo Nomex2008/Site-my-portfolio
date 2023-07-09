@@ -14,34 +14,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <script src="https://kit.fontawesome.com/91baf45a62.js" crossorigin="anonymous"></script>
+
     <title>Nomex portfolio</title>
 </head>
-<body>
+<body id="body">
     
-    <header class="header">
+    <header id="home" class="header">
         <div class="container">
             <!--nav-->
             <div class="header__nav">
-                <a data-aos="fade-down-right" href="" class="logo">
+                <a data-aos="fade-down-right" href="https://www.upwork.com/freelancers/~0189208899f8ee478b?viewMode=1" class="logo">
                     Nomex
                 </a>
                 <nav id="nav" class="nav">
                     <ul data-aos="fade-down" class="nav-list">
                         <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>   
+                            <a data-scroll="#home" href="" class="nav-link">Home</a>   
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Works</a>
+                            <a data-scroll="#services" href="" class="nav-link">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Services</a>
+                            <a data-scroll="#works" href="" class="nav-link">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Contact</a>
+                            <a data-scroll="#contact" href="" class="nav-link">Contact</a>
                         </li>
                     </ul>
                     <div id="nav-button" class="nav-button">
@@ -70,73 +68,80 @@
         </div>
     </header>
 
-    <section data-aos="fade-down" class="services">
+    <section id="services" data-aos="fade-down" class="services">
         <div class="container">
             <div class="services__header">Services</div>
             <div class="services-row">
                 <div class="services-card">
                     <img src="img/section/1.jpg" alt="" class="services-img">
+
                     <h3 class="services-title">
-                        UI/UX Design
+                        Site layout
                     </h3>
                     <p class="services-text">
-                        Our design is translated into comprehensive digital environments built on latest development standards.
+                        My layout is translated into comprehensive digital environments built on latest development standards.
                     </p>
                 </div>
 
                 <div class="services-card">
                     <img src="img/section/2.jpg" alt="" class="services-img">
                     <h3 class="services-title">
-                        UI/UX Design
+                        Adaptive
                     </h3>
                     <p class="services-text">
-                        Our design is translated into comprehensive digital environments built on latest development standards.
+                        My adaptor, suitable for all devices, was created for ease of use
                     </p>
                 </div>
 
                 <div class="services-card">
                     <img src="img/section/3.jpg" alt="" class="services-img">
                     <h3 class="services-title">
-                        UI/UX Design
+                        Site flexibility
                     </h3>
                     <p class="services-text">
-                        Our design is translated into comprehensive digital environments built on latest development standards.
+                        I create sites that will be designed to remove or add content to the site, so if you need to add content to the site, you will not have any problems                        
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section data-aos="fade-down" class="portfolio">
+    <section id="works" data-aos="fade-down" class="portfolio">
         <div class="container">
             <div class="container-title">
                 <h2 class="title-1">Portfolio</h2>
             </div>
 
             <div data-aos="flip-left" class="project">
-                <img src="img/portfolio/1.jpg" alt="" class="project__img">
-                <h3 class="project-title">
-                    Online fashion store - Homepage
-                </h3>
+                <a href="https://www.upwork.com/freelancers/~0189208899f8ee478b?viewMode=1&p=1676939509157081088">
+                    <img src="img/portfolio/1.jpg" alt="" class="project__img">
+                    <h3 class="project-title">
+                        Online store - Homepage
+                    </h3>
+                </a>
             </div>
 
             <div data-aos="flip-left" class="project">
-                <img src="img/portfolio/2.jpg" alt="" class="project__img">
-                <h3 class="project-title">
-                    Reebok Store - Concept
-                </h3>
+                <a href="https://www.upwork.com/freelancers/~0189208899f8ee478b?viewMode=1&p=1669463867529101312">
+                    <img src="img/portfolio/2.jpg" alt="" class="project__img">
+                    <h3 class="project-title">
+                        Mini Site - Concept
+                    </h3>
+                </a>
             </div>
 
             <div data-aos="flip-left" class="project">
-                <img  src="img/portfolio/3.jpg" alt="" class="project__img prof">
-                <h3 class="project-title">
-                    Braun Landing Page - Concept
-                </h3>
+                <a href="https://www.upwork.com/freelancers/~0189208899f8ee478b?p=1677969716986687488">
+                    <img  src="img/portfolio/3.jpg" alt="" class="project__img prof">
+                    <h3 class="project-title">
+                        Info Site - Concept
+                    </h3>
+                </a>
             </div>
         </div>
     </section>
 
-    <footer class="contacts">
+    <footer id="contact" class="contacts">
         <div class="container">
             <div class="contacts-title">
                 <h2 class="title-1">
@@ -147,27 +152,31 @@
                 <p>Want to know more or just chat? <br>
                     You are welcome!</p>
             </div>
-            <div data-aos="flip-right class="contacts-buton">
-                <a href="" class="contacts-btn">
+            <div data-aos="flip-right" class="contacts-buton">
+                <a href="https://mail.google.com/mail/u/0/#search/alexnomexupwork%40gmail.com?compose=new" class="contacts-btn">
                     Send message
                 </a>
             </div>
             <div class="contacts-social">
 
-                 <a data-aos="flip-right" href="" class="">
-                     <img src="img/contacts/1.jpg" alt="">
+                 <a data-aos="flip-right" href="https://www.upwork.com/freelancers/~0189208899f8ee478b?viewMode=1" class="content-icon">
+                     <!--<img src="img/contacts/1.jpg" alt="">-->
+                     <i class="fa-solid fa-house"></i>
                  </a>
 
-                 <a data-aos="flip-right" href="" class="">
-                    <img src="img/contacts/2.jpg" alt="">
-                 </a>
-
-                 <a data-aos="flip-right" href="" class="">
-                      <img src="img/contacts/3.jpg" alt="">
+                 <a data-aos="flip-right" href="https://github.com/Nomex2008" class="content-icon">
+                    <!--<img src="img/contacts/1.jpg" alt="">-->
+                    <i class="fa-brands fa-github"></i>
                 </a>
 
-                <a data-aos="flip-right" href="" class="">
-                     <img src="img/contacts/4.jpg" alt="">
+                <a data-aos="flip-right" href="https://telegram.org/k/#@Alexnomex" class="content-icon">
+                    <!--<img src="img/contacts/1.jpg" alt="">-->
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a data-aos="flip-right" href="https://www.instagram.com/alex_nomex/" class="content-icon">
+                    <!--<img src="img/contacts/1.jpg" alt="">-->
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
 
             </div>
@@ -181,5 +190,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 </body>
 </html>
