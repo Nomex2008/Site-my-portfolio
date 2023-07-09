@@ -15,5 +15,8 @@ navBtn.onclick = () => {
 }
 
 AOS.init({
-    //once:true
+    disable: function() {
+        var maxWidth = 500;
+        return window.innerWidth < maxWidth;
+      }
 });
