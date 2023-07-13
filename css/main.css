@@ -306,6 +306,42 @@ img.project__img.prof {
     color: #000;
     text-decoration: underline;
 }
+.portfolio__btn{
+    text-align: center;
+
+    margin-top: 5%;
+
+    transition: all .3s ease;
+}
+.portfolio__btn.active .btn{
+    background-color: #606060;
+    transition: all .3s ease;
+}
+.portfolio__btn.active .btn p{
+    font-size: 0;
+    width: 0;
+    display: none;
+
+    transition: all .3s ease;
+}
+.btn span{
+    display: none;
+
+    transition: all .3s ease;
+}
+.portfolio__btn.active .btn span{
+    display: inline-block;
+
+    transition: all .3s ease;
+}
+.project-active{
+    display: none;
+
+    transition: all .3s ease;
+}
+.project-active.active{
+    display:inline-block;
+}
 /*Add hover for class a*/
 .project__img{
     transition: all 1s ease;
@@ -346,38 +382,6 @@ h3.project-title:hover{
 .contacts-content p{
     text-align: center;
 }
-
-.contacts-buton {
-    margin-bottom: 80px;
-}
-.contacts-btn {
-    display: inline-block;
-    padding: 7px 22px;
-    background-color: #070707;
-    border-radius: 30px;
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #fff;
-    margin: 0;
-
-    transition: .3s all ease;
-}
-.contacts-btn:hover {
-    background-color: #606060;
-    color: #c3a2a2;
-}
-.contacts-btn:active{
-    background-color: #fff;
-    color: #070707;
-
-    position: relative;
-    top: 1px;
-}
 .contacts-content.aos-init.aos-animate{
     padding: 0;
 }
@@ -387,9 +391,6 @@ h3.project-title:hover{
     align-items: center;
     flex-wrap: wrap;
     column-gap: 60px;
-}
-a.contacts-btn{
-    margin-bottom: 40px;
 }
 .content-icon{
     font-size: 38px;
@@ -411,4 +412,39 @@ a.contacts-btn{
     color: #828282;
 
     margin-top: 25px;
+}
+/*btn*/
+.buton {
+    margin-bottom: 80px;
+}
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+
+    transition: .3s all ease;
+}
+.btn:hover {
+    background-color: #606060;
+    color: #c3a2a2;
+}
+.btn:active{
+    background-color: #fff;
+    color: #070707;
+
+    position: relative;
+    top: 1px;
+}
+a.contacts-btn{
+    margin-bottom: 40px;
 }

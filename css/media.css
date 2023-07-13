@@ -147,10 +147,10 @@
     .contacts-content{
         margin-bottom: 20px;
     }
-    .contacts-btn{
+    .btn{
         margin: 0;
     }
-    .contacts-buton.aos-init.aos-animate{
+    .buton.aos-init.aos-animate{
         margin: 0;
     }
     .contacts-social{
@@ -169,7 +169,7 @@
     .contacts-social a{
         width: 25%;
     }
-    .contacts-btn{
+    .btn{
         margin-bottom: 30px;
         margin: 0;
     }
