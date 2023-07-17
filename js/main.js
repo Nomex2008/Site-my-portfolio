@@ -5,6 +5,7 @@ const body = document.querySelector('#body');
 const btn = document.querySelector('#btn')
 const projImg = document.querySelector('#projImg')
 const projImg2 = document.querySelector('#projImg2')
+const projImg3 = document.querySelector('#projImg3')
 
 navBtn.onclick = () => {
     if (nav.classList.toggle('open')) {
@@ -21,10 +22,12 @@ btn.onclick = () => {
         btn.classList.add("active")
         projImg.classList.add("active")
         projImg2.classList.add("active")
+        projImg3.classList.add("active")
     } else {
         btn.classList.remove("active")
         projImg.classList.remove("active")
         projImg2.classList.remove("active")
+        projImg3.classList.remove("active")
     }
     
 }
