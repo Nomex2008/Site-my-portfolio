@@ -112,6 +112,8 @@ hr{
 .nav-burger {
     width: 32px;
     height: 20px;
+
+    cursor: pointer;
 }
 .nav-burger::after,
 .nav-burger::before{
@@ -439,12 +441,12 @@ h3.project-title:hover{
     transition: .3s all ease;
 }
 .btn:hover {
-    background-color: #606060;
-    color: #c3a2a2;
+    background-color: #ffffff;
+    color: #000000;
 }
 .btn:active{
-    background-color: #fff;
-    color: #070707;
+    background-color: #ffffff;
+    color: #000000;
 
     position: relative;
     top: 1px;
